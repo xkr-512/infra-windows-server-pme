@@ -1,0 +1,4 @@
+﻿"Name","Enabled","DistinguishedName"
+"SRV-AD01","True","CN=SRV-AD01,OU=Domain Controllers,DC=lab,DC=local"
+"PC-ADMIN01","True","CN=PC-ADMIN01,OU=OU_Computers,DC=lab,DC=local"
+"PC-CLT01","True","CN=PC-CLT01,OU=OU_Computers,DC=lab,DC=local"
