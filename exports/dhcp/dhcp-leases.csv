@@ -1,0 +1,4 @@
+﻿"IPAddress","HostName","ClientId","AddressState"
+"192.168.175.51","PC-CLT01.lab.local","00-0c-29-07-97-d3","Active"
+"192.168.175.60","PC-ADMIN01.lab.local","00-0c-29-60-bb-b6","ActiveReservation"
+"192.168.175.61","PRN-FAKE","00-50-56-aa-bb-61","InactiveReservation"
