@@ -1,0 +1,5 @@
+﻿"Folder","IdentityReference","FileSystemRights","AccessControlType","IsInherited"
+"Compta","CREATEUR PROPRIETAIRE","FullControl","Allow","False"
+"Compta","AUTORITE NT\Système","FullControl","Allow","False"
+"Compta","BUILTIN\Administrateurs","FullControl","Allow","False"
+"Compta","LAB\DL_Compta_RW","Modify, Synchronize","Allow","False"

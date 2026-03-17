@@ -1,0 +1,5 @@
+﻿"Folder","IdentityReference","FileSystemRights","AccessControlType","IsInherited"
+"UsersDataRoot","CREATEUR PROPRIETAIRE","FullControl","Allow","False"
+"UsersDataRoot","AUTORITE NT\Système","FullControl","Allow","False"
+"UsersDataRoot","BUILTIN\Administrateurs","FullControl","Allow","False"
+"UsersDataRoot","LAB\Utilisateurs du domaine","AppendData, ReadAndExecute, Synchronize","Allow","False"

@@ -1,0 +1,5 @@
+﻿"Folder","IdentityReference","FileSystemRights","AccessControlType","IsInherited"
+"IT","CREATEUR PROPRIETAIRE","FullControl","Allow","False"
+"IT","AUTORITE NT\Système","FullControl","Allow","False"
+"IT","BUILTIN\Administrateurs","FullControl","Allow","False"
+"IT","LAB\DL_IT_RW","Modify, Synchronize","Allow","False"

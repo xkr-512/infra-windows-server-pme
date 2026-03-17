@@ -1,0 +1,5 @@
+﻿"Folder","IdentityReference","FileSystemRights","AccessControlType","IsInherited"
+"Commun","CREATEUR PROPRIETAIRE","FullControl","Allow","False"
+"Commun","AUTORITE NT\Système","FullControl","Allow","False"
+"Commun","BUILTIN\Administrateurs","FullControl","Allow","False"
+"Commun","LAB\DL_Commun_R","ReadAndExecute, Synchronize","Allow","False"
