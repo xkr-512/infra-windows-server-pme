@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet LAB</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+            color: #f8fafc;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 40px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.08);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 18px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(6px);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 18px;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .box {
+            background: rgba(255, 255, 255, 0.07);
+            border-radius: 14px;
+            padding: 20px;
+        }
+
+        .box h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .box p {
+            margin: 0;
+            color: #e2e8f0;
+            font-size: 14px;
+        }
+
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #cbd5e1;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 8px 14px;
+            background: #22c55e;
+            color: #0f172a;
+            font-weight: bold;
+            border-radius: 999px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="badge">Infrastructure interne</div>
+            <h1>Intranet LAB</h1>
+            <p class="subtitle">
+                Infrastructure Windows Server pour PME
+            </p>
+
+            <div class="grid">
+                <div class="box">
+                    <h3>Active Directory</h3>
+                    <p>Domaine lab.local operationnel</p>
+                </div>
+                <div class="box">
+                    <h3>DNS / DHCP</h3>
+                    <p>Resolution interne et attribution IP centralisee</p>
+                </div>
+                <div class="box">
+                    <h3>GPO</h3>
+                    <p>Regles appliquees aux postes et utilisateurs</p>
+                </div>
+                <div class="box">
+                    <h3>Partages</h3>
+                    <p>Acces par service avec controle des droits</p>
+                </div>
+                <div class="box">
+                    <h3>Securite</h3>
+                    <p>LAPS, audit, verrouillage et Defender</p>
+                </div>
+                <div class="box">
+                    <h3>Administration</h3>
+                    <p>RDP, WinRM, sauvegarde et restauration</p>
+                </div>
+            </div>
+
+            <div class="footer">
+                Serveur : SRV-AD01 | Domaine : lab.local
+            </div>
+        </div>
+    </div>
+</body>
+</html>
