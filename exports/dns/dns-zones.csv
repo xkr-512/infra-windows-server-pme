@@ -1,0 +1,8 @@
+﻿"ZoneName","ZoneType","IsDsIntegrated","IsReverseLookupZone"
+"_msdcs.lab.local","Primary","True","False"
+"0.in-addr.arpa","Primary","False","True"
+"127.in-addr.arpa","Primary","False","True"
+"175.168.192.in-addr.arpa","Primary","True","True"
+"255.in-addr.arpa","Primary","False","True"
+"lab.local","Primary","True","False"
+"TrustAnchors","Primary","True","False"

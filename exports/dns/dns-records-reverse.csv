@@ -1,0 +1,6 @@
+﻿"HostName","RecordType","Timestamp","Data"
+"@","NS",,"DnsServerResourceRecordNS"
+"@","SOA",,"DnsServerResourceRecordSoa"
+"10","PTR",,"DnsServerResourceRecordPtr"
+"51","PTR","15/03/2026 21:00:00","DnsServerResourceRecordPtr"
+"60","PTR","16/03/2026 00:00:00","DnsServerResourceRecordPtr"
