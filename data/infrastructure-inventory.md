@@ -1,56 +1,69 @@
-Infrastructure Windows Server pour une PME
+# Infrastructure inventory
 
-Machines
+Windows Server infrastructure for a small business environment.
 
-- SRV-AD01
-  - Windows Server 2022
-  - Roles : AD DS, DNS, DHCP, partages SMB, DFS Namespace, IIS, sauvegarde
+## Domain
 
-- PC-ADMIN01
-  - Windows 11 Pro
-  - Role : poste d administration avec RSAT
+- `lab.local`
 
-- PC-CLT01
-  - Windows 11 Pro
-  - Role : poste client du domaine pour les tests utilisateurs, GPO, acces fichiers et redirection
+## Network
 
-Domaine
+- LAB network: `192.168.175.0/24`
 
-- lab.local
+## Main systems
 
-Reseau LAB
+### `SRV-AD01`
+- OS: `Windows Server 2022`
+- IP: `192.168.175.10`
+- Roles:
+  - `Active Directory Domain Services`
+  - `DNS`
+  - `DHCP`
+  - `SMB file sharing`
+  - `DFS Namespace`
+  - `IIS`
+  - `Windows Server Backup`
 
-- 192.168.175.0/24
+### `PC-ADMIN01`
+- OS: `Windows 11 Pro`
+- IP: `DHCP reservation 192.168.175.60`
+- Role:
+  - administration workstation with `RSAT`
 
-Adresses principales
+### `PC-CLT01`
+- OS: `Windows 11 Pro`
+- IP: `DHCP lease`
+- Role:
+  - domain client workstation for user, GPO, file access, and folder redirection tests
 
-- SRV-AD01 : 192.168.175.10
-- PC-ADMIN01 : reservation DHCP 192.168.175.60
-- PC-CLT01 : bail DHCP
-- PRN-FAKE : reservation DHCP 192.168.175.61
+## DHCP reservations
 
-Services deployes
+- `PC-ADMIN01` -> `192.168.175.60`
+- `PRN-FAKE` -> `192.168.175.61`
 
-- Active Directory Domain Services
-- DNS
-- DHCP
-- GPO
-- Partages SMB et permissions NTFS
-- Redirection de dossiers
-- DFS Namespace
-- Access-Based Enumeration
-- Windows LAPS
-- Audit des connexions
-- Microsoft Defender
-- RDP
-- WinRM
-- Synchronisation NTP
-- IIS
-- Windows Server Backup
+## Deployed services
 
-Services metier
+- `AD DS`
+- `DNS`
+- `DHCP`
+- `Group Policy`
+- `SMB shares`
+- `NTFS permissions`
+- `Folder Redirection`
+- `DFS Namespace`
+- `Access-Based Enumeration`
+- `Windows LAPS`
+- `Logon auditing`
+- `Microsoft Defender`
+- `RDP`
+- `WinRM`
+- `NTP time synchronization`
+- `IIS`
+- `Windows Server Backup`
 
-- RH
-- Compta
-- IT
-- Direction
+## Business units
+
+- `RH`
+- `Compta`
+- `IT`
+- `Direction`
