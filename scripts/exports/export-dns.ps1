@@ -24,7 +24,7 @@ $records = foreach ($r in Get-DnsServerResourceRecord -ZoneName "lab.local") {
     }
 }
 
-$records | Export-Csv (Join-Path $out "dns-records-lab-local-clean.csv") -NoTypeInformation -Encoding UTF8
+$records | Export-Csv (Join-Path $out "dns-records-lab-local.csv") -NoTypeInformation -Encoding UTF8
 
 Get-DnsServerResourceRecord -ZoneName "175.168.192.in-addr.arpa" |
     Select-Object HostName, RecordType, Timestamp, @{Name='Data';Expression={$_.RecordData}} |
