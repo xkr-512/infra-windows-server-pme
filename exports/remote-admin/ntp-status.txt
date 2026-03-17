@@ -1,0 +1,11 @@
+﻿Indicateur de dérive : 0(Aucun avertissement)
+Couche : 1 (Référence principale, synchronisée par l'horloge du réveil)
+Précision : -23 (119.209ns par battement)
+Délai de racine : 0.0000000s
+Dispersion de racine : 10.0000000s
+ID de référence : 0x4C4F434C (Nom de la source :  "LOCL")
+Heure de la dernière synchronisation réussie : 16/03/2026 01:56:53
+Source : Local CMOS Clock
+Intervalle d'interrogation : 6 (64s)
+
+

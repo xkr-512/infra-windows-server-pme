@@ -1,0 +1,11 @@
+﻿Indicateur de dérive : 0(Aucun avertissement)
+Couche : 2 (Référence secondaire, synchronisée par (S)NTP)
+Précision : -23 (119.209ns par battement)
+Délai de racine : 0.0019190s
+Dispersion de racine : 18.5512933s
+ID de référence : 0xC0A8AF0A (IP de la source :  192.168.175.10)
+Heure de la dernière synchronisation réussie : 17/03/2026 19:47:45
+Source : SRV-AD01.lab.local 
+Intervalle d'interrogation : 10 (1024s)
+
+

@@ -1,0 +1,8 @@
+﻿"DisplayName","Enabled","Direction","Action"
+"Bureau à distance - (TCP-WS-entrant)","False","Inbound","Allow"
+"Bureau à distance - (TCP-WSS-entrant)","False","Inbound","Allow"
+"Bureau à distance - Contrôle à distance (TCP-In)","True","Inbound","Allow"
+"Bureau à distance - Mode utilisateur (TCP entrant)","True","Inbound","Allow"
+"Bureau à distance - Mode utilisateur (UDP entrant)","True","Inbound","Allow"
+"Visionneuse web de l’application de bureau","True","Outbound","Allow"
+"Visionneuse web de l’application de bureau","True","Inbound","Allow"
