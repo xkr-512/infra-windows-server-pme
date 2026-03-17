@@ -197,7 +197,6 @@ The `scripts/exports` folder contains PowerShell scripts used to regenerate the 
 
 ## Notes
 
-- no screenshots were used in this project
 - sensitive secrets were not exported to the repository
 - LAPS password values were intentionally excluded from committed evidence
 - the repository focuses on reproducible configuration evidence and technical validation
