@@ -1,0 +1,6 @@
+﻿
+Name                      FullName                     Length LastWriteTime      
+----                      --------                     ------ -------------      
+$RECYCLE.BIN              E:\$RECYCLE.BIN                     16/03/2026 02:06:51
+System Volume Information E:\System Volume Information        16/03/2026 02:06:38
+WindowsImageBackup        E:\WindowsImageBackup               16/03/2026 02:06:34

@@ -1,0 +1,10 @@
+﻿wbadmin 1.0 - Outil en ligne de commande de sauvegarde
+(C) Copyright Microsoft Corporation. Tous droits réservés.
+
+Durée de sauvegarde : 16/03/2026 02:06 
+Cible de sauvegarde : Disque 1394/USB étiqueté BACKUP(E:)
+Identificateur de version : 03/16/2026-01:06
+Peut récupérer : Volume(s), Fichier(s)
+ID de capture instantanée : {f4ea086a-668e-4724-b861-c6eb00280ae0}
+
+
