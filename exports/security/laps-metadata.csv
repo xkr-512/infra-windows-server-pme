@@ -1,0 +1,2 @@
+﻿"ComputerName","Account","PasswordUpdateTime","ExpirationTimestamp","Source","DecryptionStatus"
+"PC-CLT01","Administrateur","16/03/2026 00:32:00","15/04/2026 01:32:00","EncryptedPassword","Success"
